@@ -16,7 +16,7 @@ body, html{
   font-family: "Droid Sans", arial, verdana, sans-serif;
   font-weight: 700;
   color: #EBD71C;
-  background-color: rgba(0,0,0, .1);
+  background-color: rgba(0,0,0, .5);
   overflow: hidden;
   position: relative;
 }
@@ -101,9 +101,9 @@ body, html{
 
 .star-wars-intro .main-logo {
   position: absolute;
-  width: 2.6em;
+  width:90%;
   left: 50%;
-  top: 20vh;
+  top: 20v"h;
   font-size: 10em;
   text-align: center;
   margin-left: -1.3em;
