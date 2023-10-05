@@ -16,6 +16,7 @@ body, html{
   font-family: "Droid Sans", arial, verdana, sans-serif;
   font-weight: 700;
   color: #EBD71C;
+  background-color: #000;
   overflow: hidden;
   position: relative;
 }
@@ -41,7 +42,6 @@ body, html{
   margin-left: auto;
   margin-right: auto;
   position: absolute;
-  background-color: rgba(0,0,0, .4);
   z-index: 3;
   width: 98%;
   height: 50em;
@@ -59,7 +59,7 @@ body, html{
   content: ' ';
   top: 0;
   bottom: 60%;
-  background-image: linear-gradient(top, rgba(0,0,0,1) 0%, transparent 50%);
+  background-image: linear-gradient(top, rgba(0,0,0,1) 0%, transparent 100%);
   pointer-events: none;
 }
 
