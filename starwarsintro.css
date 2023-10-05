@@ -6,6 +6,7 @@ body, html{
   height: 100%;
   min-height: 100vh;
   margin: 0px;
+  background-color: #fff;
 }
 
 .star-wars-intro {
@@ -16,7 +17,7 @@ body, html{
   font-family: "Droid Sans", arial, verdana, sans-serif;
   font-weight: 700;
   color: #EBD71C;
-  background-color: rgba(0,0,0, .5);
+  background-color: rgba(0,0,0, .8);
   overflow: hidden;
   position: relative;
 }
@@ -59,7 +60,7 @@ body, html{
   content: ' ';
   top: 0;
   bottom: 60%;
-  background-image: linear-gradient(top, rgba(0,0,0,.1) 0%, transparent 100%);
+  background-image: linear-gradient(top, rgba(0,0,0,.9) 0%, transparent 100%);
   pointer-events: none;
 }
 
@@ -103,13 +104,13 @@ body, html{
   position: absolute;
   width: 2.6em;
   left: 50%;
-  top: 20v"h;
+  top: 20vh;
   font-size: 10em;
   text-align: center;
   margin-left: -1.3em;
   line-height: 0.8em;
   letter-spacing: -0.05em;
-  color: rgba(0,0,0, .1);
+  color: rgba(0,0,0, .5);
   text-shadow: -2px -2px 0 #EBD71C, 2px -2px 0 #EBD71C, -2px 2px 0 #EBD71C, 2px 2px 0 #EBD71C;
   opacity: 0;
   z-index: 1;
