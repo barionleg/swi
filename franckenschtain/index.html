@@ -44,8 +44,8 @@ p#start
 	font-weight: 400;
 	margin: 20% auto;
 	color: #4ee;
-	opacity: .1;
-	z-index: 1;
+	opacity: .9;
+	z-index: -1;
 	-webkit-animation: intro 2s ease-out;
 	-moz-animation: intro 2s ease-out;
 	-ms-animation: intro 2s ease-out;
@@ -78,9 +78,9 @@ p#start
 }
 
 @keyframes intro {
-	0% { opacity: .1; }
-	90% { opacity: .1; }
-	100% { opacity:.1; }
+	0% { opacity: 1; }
+	90% { opacity: 1; }
+	100% { opacity:0; }
 }
 
 h1
@@ -95,8 +95,8 @@ h1
 	line-height: 0.8em;
 	letter-spacing: -0.05em;
 	text-shadow: -2px -2px 0 #ff6, 2px -2px 0 #ff6, -2px 2px 0 #ff6, 2px 2px 0 #ff6;
-	opacity: .1;
-	z-index: 1;
+	opacity: .9;
+	z-index: -1;
 	-webkit-animation: logo 5s ease-out 2.5s;
 	-moz-animation: logo 5s ease-out 2.5s;
 	-ms-animation: logo 5s ease-out 2.5s;
@@ -137,9 +137,9 @@ h1 sub
 }
 
 @keyframes logo {
-	0% { transform: scale(1); opacity: .1; }
-	50% { opacity: .1; }
-	100% { transform: scale(0.1); opacity: .1; }
+	0% { transform: scale(1); opacity: 1; }
+	50% { opacity: 1; }
+	100% { transform: scale(0.1); opacity: 0; }
 }
 
 /* the interesting 3D scrolling stuff */
@@ -233,7 +233,7 @@ h1 sub
 
 @keyframes scroll {
 	0% { top: 100%; }
-	100% { top: -270%; }
+	100% { top: -170%; }
 }
 </style>
 
