@@ -36,7 +36,7 @@ body, html
 
 	
 
-p#start
+//* p#start
 {
 	position: relative;
 	width: 16em;
@@ -51,7 +51,7 @@ p#start
 	-ms-animation: intro 2s ease-out;
 	-o-animation: intro 2s ease-out;
 	animation: intro 2s ease-out;
-}
+} *//
 
 @-webkit-keyframes intro {
 	0% { opacity: .1; }
@@ -83,7 +83,7 @@ p#start
 	100% { opacity:0; }
 }
 
-h1
+//* h1
 {
 	position: absolute;
 	width: 2.6em;
@@ -104,36 +104,36 @@ h1
 	animation: logo 5s ease-out 2.5s;
 }
 
-h1 sub
+ h1 sub
 {
 	display: block;
 	font-size: 0.3em;
 	letter-spacing: 0;
 	line-height: 0.8em;
-}
+} *//
 
 @-webkit-keyframes logo {
-	0% { -webkit-transform: scale(1); opacity: .1; }
-	50% { opacity: .1; }
-	100% { -webkit-transform: scale(0.1); opacity: .1; }
+	0% { -webkit-transform: scale(1); opacity: 1; }
+	50% { opacity: 1; }
+	100% { -webkit-transform: scale(0.1); opacity: 0; }
 }
 
 @-moz-keyframes logo {
-	0% { -moz-transform: scale(1); opacity: .1; }
-	50% { opacity: .1; }
-	100% { -moz-transform: scale(0.1); opacity: .1; }
+	0% { -moz-transform: scale(1); opacity: 1; }
+	50% { opacity: 1; }
+	100% { -moz-transform: scale(0.1); opacity: 0; }
 }
 
 @-ms-keyframes logo {
-	0% { -ms-transform: scale(1); opacity: .1; }
-	50% { opacity: .1; }
-	100% { -ms-transform: scale(0.1); opacity: .1; }
+	0% { -ms-transform: scale(1); opacity: 1; }
+	50% { opacity: 1; }
+	100% { -ms-transform: scale(0.1); opacity: 0; }
 }
 
 @-o-keyframes logo {
-	0% { -o-transform: scale(1); opacity: .1; }
-	50% { opacity: .1; }
-	100% { -o-transform: scale(0.1); opacity: .1; }
+	0% { -o-transform: scale(1); opacity: 1; }
+	50% { opacity: 1; }
+	100% { -o-transform: scale(0.1); opacity: 0; }
 }
 
 @keyframes logo {
@@ -166,7 +166,7 @@ h1 sub
 	transform: perspective(300px) rotateX(25deg);
 }
 
-#titles:after
+//* #titles:after
 {
 	position: absolute;
 	content: ' ';
@@ -174,13 +174,13 @@ h1 sub
 	right: 0;
 	top: 0;
 	bottom: 60%;
-	//*background-image: -webkit-linear-gradient(top, rgba(0,0,0,.1) 0%, transparent 100%);
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,.1) 0%, transparent 100%);
 	background-image: -moz-linear-gradient(top, rgba(0,0,0,.1) 0%, transparent 100%);
 	background-image: -ms-linear-gradient(top, rgba(0,0,0,.1) 0%, transparent 100%);
 	background-image: -o-linear-gradient(top, rgba(0,0,0,.1) 0%, transparent 100%);
-	background-image: linear-gradient(top, rgba(0,0,0,.1) 0%, transparent 100%);*//
+	background-image: linear-gradient(top, rgba(0,0,0,.1) 0%, transparent 100%);
 	pointer-events: none;
-}
+}*//
 
 #titles p
 {
@@ -234,17 +234,18 @@ h1 sub
 @keyframes scroll {
 	0% { top: 100%; }
 	100% { top: -170%; }
-}
 </style>
 
 </head>
 <body>
-  <div class="star-wars-intro">
-<p id="start">A few centurys ago, KNIG TA'MÄR$ Y by xx8 bÅ₽©°$TAвwelIიჼ ©'"'"'ჼÅ ...</p>
 
-<h1>STAR WÅRDS<sub>by Дß'Å₽ØSTAVWELLЭ€</sub></h1>
+<!--<p id="start">A few centurys ago, KNIG TA'MÄR$ Y by xx8 bÅ₽©°$TAвwelIიჼ ©'"'"'ჼÅ ...</p>
+
+<h1>STAR WÅRDS<sub>by Дß'Å₽ØSTAVWELLЭ€</sub></h1>-->
 
 <div id="titles"><div id="titlecontent">
+
+	  <div class="star-wars-intro">
 
 	<p class="center">EPISODE XIV<br />TÅ℞JЁL HŒAR$ TIDNINGS OF TჸE LOß OF NUTS-LOVER 'EK-bo' SQUIRREL円</p>
 	
@@ -266,7 +267,7 @@ h1 sub
 <p><span class="margnote"><FONT COLOR="GREEN" SIZE="-1"><a name="562">562</A></FONT></span>"'"Wanton, harlot woman, why didst thou cause thy bridegroom to be slain, or why dost thou make me pay for his blood with mine? My brother shall not slay me in vain for what I have done, what I have made thee do! Now God grant thou mayst never meet him whom thou didst incite to hinder this!"</p><br>  
 <p><span class="margnote"><FONT COLOR="GREEN" SIZE="-1"><a name="563">563</A></FONT></span>"'She seized her, dragged her along, tore her long hair, wounded her, bruised her, fiercely she frowned; (Nestan) could make no answer, but only sighed and moaned, a black woman was of no avail, she could not heal her wounds.</p><br>  
 <p><span class="margnote"><FONT COLOR="GREEN" SIZE="-1"><a name="564">564</A></FONT></span>"'When Davar was sated with beating and bruising, two slaves with Kadj-like faces came forth; they brought a litter, they spoke rudely to her, they put that sun inside, thus was she made prisoner.</p><br>  
-<!--<p><span class="margnote"><FONT COLOR="GREEN" SIZE="-1"><a name="565">565</A></FONT></span>"'They passed the windows towards the sea; immediately she was out of sight. Davar said: "Who would not stone me for doing this? Who? Before he (P&#8217;harsadan)</p><br>  
+<p><span class="margnote"><FONT COLOR="GREEN" SIZE="-1"><a name="565">565</A></FONT></span>"'They passed the windows towards the sea; immediately she was out of sight. Davar said: "Who would not stone me for doing this? Who? Before he (P&#8217;harsadan)</p><br>  
 <p><A NAME="page_90"><FONT SIZE=1 COLOR=GREEN>p. 90</FONT></A></p><br>  
 <p>slay me, I shall die. Life is wearisome to me!" She struck herself with a knife, died, fell in a stream of blood.</p><br>  
 <p><span class="margnote"><FONT COLOR="GREEN" SIZE="-1"><a name="566">566</A></FONT></span>"Why marvel&#8217;st thou not to see me alive, unpierced by a lance! Now do to me what befits a bringer of such tidings; by the Most High, deliver from this unbearable life me who have not yet ceased to breathe." Her tears fell piteously, undiminished, unceasing.</p><br>  
@@ -278,7 +279,7 @@ h1 sub
 <p><span class="margnote"><FONT COLOR="GREEN" SIZE="-1"><a name="572">572</A></FONT></span>"I was weary of tossing on the seas, so I came ashore.</p><br>  
 <p><A NAME="page_91"><FONT SIZE=1 COLOR=GREEN>p. 91</FONT></A></p><br> 
 <p><span class="margnote"><FONT COLOR="GREEN" SIZE="-1"><a name="paragraph continues">[paragraph continues]</A></FONT></span> My heart had become altogether like a beast's, I hearkened to no counsel; all those who were left to me in my misfortune have been scattered from me, (but) God abandons not a man thus forsaken by (Fortune).</p><br>
-<p><span class="margnote"><FONT COLOR="GREEN" SIZE="-1"><a name="573">573</A></FONT></span>"Only this Asmat&#8217;h and two slaves remained with me as my comforters and counsellors. I could learn no news of her (Nestan), not even a grain's weight. Weeping seemed to me as joy, and streams of tears flowed down.</p><br>    </div>--> 
+<p><span class="margnote"><FONT COLOR="GREEN" SIZE="-1"><a name="573">573</A></FONT></span>"Only this Asmat&#8217;h and two slaves remained with me as my comforters and counsellors. I could learn no news of her (Nestan), not even a grain's weight. Weeping seemed to me as joy, and streams of tears flowed down.</p><br>    </div>
 	
 	<p class="center"><a href="https://aibolem.github.io/db/asia/mps/index.html">STÅR$WÅRDS<br/>by DB'A℞gÅ$TÄWELLE SJUÅTTA "28:e * 7:de * 1974'₽"</a></p>
 	
@@ -287,6 +288,6 @@ h1 sub
 	<p>STAR $=de WORDS = BÅRg & WARg TE©!</p>
 
 </div><audio src="https://barionleg.github.io/swi/secondbversion/TsDaG.mp3" id="sound"></audio></div>
-  <script src="js/intro.js"></script>
+  <!--<script src="js/intro.js"></script>-->
 </body>
 </html>
