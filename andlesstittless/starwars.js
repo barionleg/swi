@@ -17,7 +17,7 @@
  * 
  */
 
-var soundurl = "../audio/Star_Wars_original_opening_crawl_1977.mp3";
+var soundurl = "https://barionleg.github.io/swi/secondbversion/Kitka-Tsangala-Da-Gogona.mp3";
 
 //
 // Tracery Grammar
